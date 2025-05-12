@@ -6,5 +6,65 @@
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight:400;
-    font-style: normal;
+    font-style: normal;}
+  
+/* shared style */
+.disply-flex{
+display: flex;}
+.btn-colour{
+  background-color: darkorange;
+  color: white;
+  padding: 20px 25px;
+  font: size 1.25px;
+  font-weight: 600;
+}
+
+.brand{
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+/* colour style */
+.bg-hcolour{
+  background-color: rgba(156, 101, 13, 0.1)}
+/* Dark-01 */
+.dark-01{
+  color: #131313;}
+/* Dark-02 */
+.drak-02{
+  color: #424242;}
+/* Dark-03 */
+.dark-03{color: #727272;}
+
+.navbar{justify-content: space-between;
+
+  align-items: center;
+}
+
+
+
+/* navbar Style */
+.nav-item{list-style: none;margin: 30px;}
+
+
+.nav-link{text-decoration: none;
+font-weight: 500px;}
+
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* banner content style */
+.banner-content{
+  max-width: 855px;
+  margin: 0 auto;
+  text-align: center;}
+  .banner-imame{width: 100%;}
+
+  /* Resposive Media quart */
+@media screen and (max-width: 575px){
+  .navbar,.nav-link{
+    flex-direction: column;
   }
+  
+}

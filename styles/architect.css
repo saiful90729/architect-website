@@ -41,10 +41,10 @@ display: flex;}
   align-items: center;
 }
 
-
-
 /* navbar Style */
 .nav-item{list-style: none;margin: 30px;}
+
+main > section{margin-top: 130px;}
 
 
 .nav-link{text-decoration: none;
@@ -61,10 +61,20 @@ font-weight: 500px;}
   text-align: center;}
   .banner-imame{width: 100%;}
 
+
+  /* team andfeature style */
+  .teams{
+    align-items: center; }
+
+     .team-imag-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+  }
+
   /* Resposive Media quart */
 @media screen and (max-width: 575px){
   .navbar,.nav-link{
-    flex-direction: column;
-  }
-  
-}
+    flex-direction: column; }}
+
+  .our-feature {margin-left: 130px;}
